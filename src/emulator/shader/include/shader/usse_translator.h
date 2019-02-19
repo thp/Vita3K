@@ -295,9 +295,9 @@ public:
         Imm4 src2_n,
         Imm1 comp_sel_0_bit0);
 
-    bool USSETranslatorVisitor::phas();
+    bool phas();
 
-    bool USSETranslatorVisitor::spec(
+    bool spec(
         bool special,
         SpecialCategory category);
 
